@@ -1,0 +1,9 @@
+.container-home{
+    width: 80%;
+    margin: 0 auto;
+}
+@media only screen and (max-width:900px){
+    .container-home{
+        width: 90%;
+    }
+}

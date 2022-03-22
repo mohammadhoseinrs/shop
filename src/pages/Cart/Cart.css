@@ -1,0 +1,126 @@
+.cart{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.cart-header{
+    margin: 30px 0;
+    display: flex;
+}
+.cart-header p{
+    margin: 0 5px;
+}
+.cart-bottom{
+    flex: 1;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-bottom-left{
+    flex: 1;
+    margin-right: 50px;
+}
+.adding-product{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+
+}
+.cart-left-header{
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    font-size: 15px;
+    font-weight: 600;
+}
+.product-cart{
+    flex: 1;
+    padding-left: 20px;
+}
+.total-cart{
+    padding-right: 20px;
+}
+.quantity-cart{
+    margin: 0 70px;
+}
+.cart-bottom-right{
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+}
+.fontweight{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.cart-bottom-right h3{
+    font-size: 15px;
+}
+.line5{
+    margin: 20px 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+.sub-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-bottom-right textarea{
+    margin: 20px 0 30px 0;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    outline: #293355;
+}
+.cart-bottom-right label{
+    margin-bottom: 10px;
+}
+.cart-bottom-right select{
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+}
+.cart-btn{
+    background-color: #293355;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 30px;
+    border: 1px solid #293355;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.cart-btn:hover{
+    background-color: #fff;
+    color: #293355 ;
+    
+}
+.total-calc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:1100px){
+    .cart-bottom{
+        flex-direction: column;
+    }
+    .cart-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .cart-bottom-left{
+        margin-bottom: 100px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:550px){
+    .quantity-cart{
+        margin: 0 20px;
+    }
+    .cart-left-header{
+        font-size: 12px;
+    }
+}

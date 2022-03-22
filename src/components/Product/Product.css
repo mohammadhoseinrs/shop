@@ -1,0 +1,21 @@
+.product-title{
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+.product-title h1{
+    color: rgba(6, 6, 85, 0.918);
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.product-title-link{
+    color: #ba7a2d;
+    font-weight: 700;
+
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}

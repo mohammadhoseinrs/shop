@@ -1,0 +1,16 @@
+.aboutimg{
+    margin: 20px;
+    width: 245px;
+    height: 220px;
+    transition: all 0.5s ease;
+    box-shadow: 1px 1px 7px 0px #000;
+}
+.aboutimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.aboutimg:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}

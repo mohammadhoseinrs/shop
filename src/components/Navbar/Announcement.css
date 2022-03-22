@@ -1,0 +1,17 @@
+.Announcement{
+    margin-top: 70px;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 128, 128, 0.719);
+    background-color: #293355;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.671);
+    letter-spacing: 15px;
+}
+@media screen and (max-width:550px){
+    .Announcement{
+        letter-spacing: 0px;
+    }
+}

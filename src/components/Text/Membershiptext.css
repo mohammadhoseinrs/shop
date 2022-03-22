@@ -1,0 +1,62 @@
+.membership{
+    width: 100%;
+    background-color: #293355;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.membership-content{
+    padding: 60px 40px ;
+}
+.membership-content h3{
+    font-size: 40px;
+}
+.membership-content p{
+    font-size: 20px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+.membership-content button{
+    border: 1px solid #fff; 
+    background-color: #fff;
+    color: rgba(5, 5, 5, 0.644);
+    padding: 15px 25px;
+    font-size: 20px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.membership-content button:hover{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+@media screen and (max-width:650px){
+    .membership-content h3{
+        font-size: 30px;
+    }
+    .membership-content p{
+        font-size: 15px;
+        margin: 10px 0;
+        margin-bottom: 20px;
+    }
+    .membership-content button{
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+    .membership-content{
+        padding: 30px 15px;
+    }
+}
+@media screen and (max-width:550px){
+    .membership-content h3{
+        font-size: 20px;
+    }
+    .membership-content p{
+        font-size: 12px;
+    }
+    .membership-content button{
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+}

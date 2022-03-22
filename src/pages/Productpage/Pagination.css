@@ -1,0 +1,26 @@
+.paginationcontainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginationcontainer a{
+    margin: 20px;
+    border: 2px solid #29335563;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.paginationcontainer a:hover{
+    background-color: #293355;
+    color: #fff;
+}
+.paginationactive{
+    background-color: #293355;
+    color: #fff;
+}
+@media screen and (max-width:550px){
+    .paginationcontainer a {
+        margin: 10px;
+    }
+}

@@ -1,0 +1,123 @@
+.create-an-account{
+    margin: 50px 0;
+}
+.container-register{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 130px;  
+}
+.register-link{
+    margin-top: 50px;
+    display: flex;
+    color: #000;
+}
+.formik-div{
+    display: flex;
+    justify-content: space-between;
+}
+.slash{
+    margin: 0 10px;
+}
+.home1{
+    color: rgba(0, 0, 0, 0.404);
+}
+.create-an-account h3{
+    text-transform: uppercase;  
+}
+.line2{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;  
+}
+.formik-div-img{
+   margin: 60px;
+    height:600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 8px rgb(0 0 0 / 34%);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.formik-div-img:hover{
+    opacity: 0.8;
+    transform: translateY(-20px);
+}
+.register-form p{
+    margin: 30px 0;
+}
+.register-form label{
+    margin: 10px 0;
+}
+.register-form input{
+    width: 60%;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+}
+.last-input{
+    margin-bottom: 30px;
+}
+.register-form button{
+    background-color: #293355;
+    border: 1px solid #293355;
+    
+    color: #fff;
+    padding: 20px 30px;
+    width: 250px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+
+}
+.register-form button:hover{
+    background-color: #fff;
+    color: #293355;
+    cursor: pointer;
+}
+.form-login{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.form-btn{
+    cursor: pointer;
+    min-width: 100px;
+}
+
+@media (max-width:1200px){
+    .register-form input{
+        width: 380px;
+    }
+    .register-form p{
+width: 500px;
+    }
+}
+@media (max-width:900px){
+    .register-form input{
+        width: 300px;
+    }
+    .formik-div-img{
+        height: 500px;
+    }
+    
+}
+@media (max-width:700px){
+    .register-form input{
+        width: 250px;
+    } 
+    .formik-div-img{
+        display: none;
+    }
+    .formik-div{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:350px){
+    .register-form input{
+        width: 250px;
+    }
+    
+    
+}

@@ -1,0 +1,9 @@
+.category-container{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:650px){
+    .category-container{
+        flex-direction: column;
+    }
+}

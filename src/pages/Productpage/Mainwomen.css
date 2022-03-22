@@ -1,0 +1,149 @@
+.women-container{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 130px;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.212);    
+}
+.women-image-container{
+   flex: 1;
+}
+.women-image{
+    width: 100%;
+    height: 100%;
+}
+.women-right{
+    flex: 1;
+    padding: 0px 50px;
+}
+.women-right h1{
+    margin: 50px 0;
+}
+.women-star{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.women-star p{
+    flex: 1;
+    margin-left: 10px;
+}
+.women-star-2{
+    color: rgb(202, 180, 52);
+}
+.women-atish{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.678);
+}
+.vendor{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    
+}
+.vendor1{
+    color: rgba(0, 0, 0, 0.432);
+}
+.vendor2{
+    margin-left: 5px;
+}
+.women-para{
+    padding-right: 40px;
+    color: rgba(0, 0, 0, 0.459);
+}
+.women-color{
+    margin-top: 60px ;
+    display: flex;
+}
+.women-color-1{
+    color: darkblue;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.women-button-colored{
+    display: flex;
+    
+}
+.women-button-colored-1{
+    padding: 10px;
+    width: 150px;
+    border: none;
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.521);
+    margin-right: 20px;
+}
+.orange{
+    background-color: rgba(255, 166, 0, 0.63);
+}
+.box-size{
+    display: flex;
+    align-items: center;
+
+}
+.box-size button{
+    padding: 10px 20px;
+    width: 60px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.box-size button:hover{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.315);
+}
+.buyit{
+    margin-top: 30px;
+    font-size: .875rem;
+    font-weight: 700;
+    width: 70%;
+    padding: 20px;
+    background-color: #293355;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: all 0.4s ease;
+}
+.buyit:hover{
+    background-color: #fff;
+    color: #293355;
+    border: 1px solid #29335583;
+}
+@media screen and (max-width:1000px) {
+    .women-right{
+        flex: 0.7;
+    }  
+}
+@media screen and (max-width:900px){
+    .women-container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px){
+    .women-right{
+        padding: 0 20px;
+    }
+    .women-star{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .women-star p {
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width:500px){
+    .women-right h1{
+        font-size: 20px;
+    }
+    .women-container{
+        margin-top: 100px;
+    }
+}

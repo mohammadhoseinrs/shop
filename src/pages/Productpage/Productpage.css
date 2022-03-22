@@ -1,0 +1,26 @@
+.product-header{
+    margin-top: 71px;
+    background-color: #293355;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navlink{ 
+    cursor: pointer;
+    color: #ffff;
+    height: 100px;
+}
+.product-header-link{
+    color: #ffff;
+    padding: 20px 50px;
+    transition: all 0.5s ease-in-out;
+}
+.active{
+    border: 1px solid #293355;
+    border-bottom: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 5px 20px 0px #293355;
+}
